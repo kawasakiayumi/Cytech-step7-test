@@ -27,7 +27,7 @@
         <option value="{{ $company -> Id }}">{{ $company -> company_name }}</option>
         @endforeach
      </select>
-   </div>
+</div>
 
    <div class="form-group p-2">
     <label for="price">価格：</label><span class="text-danger">*</span>
