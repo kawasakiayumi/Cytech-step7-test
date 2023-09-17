@@ -15,7 +15,7 @@ class RegisterController extends Controller
         $name = $request->get('name');
         $company_name = $request->get('compay_name');
 
-        return view('products.register',[
+        return view('products.p_register',[
             'name' => $name,
             'company_name' => $company_name
         ]);

@@ -44,7 +44,7 @@ public function list(){
 
         $companies = \DB::table('companies')->get();
 
-        return view('products.register',[
+        return view('products.p_register',[
             'companies' => $companies,
         ]);
     }

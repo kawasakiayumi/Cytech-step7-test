@@ -90,7 +90,7 @@
 
     <td>
     <div class="d-grid gap-2 col-2 mx-auto p-2">
-        <button type="button" onclick="location.href='{{route ('register')}}'" class="btn btn-primary">新規登録</botton>
+        <button type="button" onclick="location.href='{{route ('p_register')}}'" class="btn btn-primary">新規登録</botton>
    
 </div>
  </td>  

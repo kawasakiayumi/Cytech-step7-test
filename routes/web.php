@@ -26,9 +26,9 @@ Route::get('/list', [App\Http\Controllers\ProductController::class, 'list'])->na
 //Route::get('/list', [App\Http\Controllers\CompaniesController::class, 'companyname'])->name('companyname');
 
 //商品新規登録画面の表示
-Route::get('/register', [App\Http\Controllers\ProductController::class, 'register'])->name('register');
+Route::get('/p_register', [App\Http\Controllers\ProductController::class, 'register'])->name('register');
 //商品登録の処理
-Route::post('/register', [App\Http\Controllers\ProductController::class, 'submit'])->name('submit');
+Route::post('/p_register', [App\Http\Controllers\ProductController::class, 'submit'])->name('submit');
 
 //商品詳細画面の表示
 Route::get('/detail/{id}', [App\Http\Controllers\ProductController::class, 'detail'])->name('detail');
